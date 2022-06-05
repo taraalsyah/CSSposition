@@ -53,3 +53,30 @@ div.text{
     left: 100px;
 
 }
+.empat{
+    background-color: chartreuse;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.lima{
+    background-color: crimson;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.enam{
+    background-color: chocolate;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
