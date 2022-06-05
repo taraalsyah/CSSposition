@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: auto;
+    border: 5px solid black;
+    width: 1000px;
+    height: 1000px;
+    background-color: #ffebcd;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+div.text{
+    width: 250px;
+    height: 100px;
+    
+}
+.satu{
+    background-color: blueviolet;
+    text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+    /*
+    #position absolute itu dimensi nya naik satu, tapi dimensi yg di tinggal kan di anggap tidak ada atau kosong.(content static yg di sampingnya bakal ngisi kekosonganya)
+    #posisi nya klo di setting itu bakal menuju parent terdekat yg dimensi posisinya sama atau sama dengan tidak static.(jadi untuk bisa nempel sama parentya, sang parent harus bersifat relative)
+    #biasnaya di pake buat naro tulisan di atas gambar
+    */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.dua{
+    background-color: blue;
+    text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+    /*position relative itu dimensi nya naik satu, tapi dimensi yg di tinggal kan tetep di anggap ada atau tidak
+    di anggap kosong.
+    */
+    position: relative;
+}
+.tiga{
+    background-color: brown;
+    text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+    /*position fixed itu dimensi nya naik dua, klo di setting posisinya bakal ikut sama window nya dan bukan sama parentnya
+    biasnaya di pake buat bikin fix-navbar yg klo di scroll gk bakal pindah posisi*/
+    position: fixed;
+    left: 100px;
+
+}
